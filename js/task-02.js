@@ -18,5 +18,5 @@ const listEl = document.querySelector('#ingredients');
   itemEl.classList.add("item");
     console.log(itemEl);
     
-    listEl.append(itemEl);
+    listEl.appendChild(itemEl);
 });
